@@ -1,5 +1,6 @@
 import react from 'react';
 import {handlesearchtext,handleaddmovies} from './Actions/index';
+import {StoreContext} from './index';
 class Navbar extends react.Component
 {
     constructor()
@@ -45,4 +46,15 @@ class Navbar extends react.Component
         </div>
     );}
 }
-export default Navbar;
+
+class Navbarwrapper extends react.Component{
+    render()
+    {
+        return (
+            <StoreContext.Consumer>
+            {((store)=><Navbar store = {store}/>)}
+            </StoreContext.Consumer>
+        )
+    }
+}
+export default Navbarwrapper;
