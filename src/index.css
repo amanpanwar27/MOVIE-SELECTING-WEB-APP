@@ -1,0 +1,167 @@
+.moviecard-container{
+  height: 310px;
+  width:80%;
+  margin: auto;
+  margin-top: 3px;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:row;
+  margin-bottom:20px;
+}
+img{
+  height: 300px;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: auto;
+  background-color: green;
+}
+.body{
+  background-color: lightgrey;
+}
+.movie-data{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+.movie-title{
+  font-size: 2em;
+  margin-bottom: 135px;
+  margin-top: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+.movie-description{
+margin-bottom:10px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+.movie-rating{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-weight: bolder;
+  width: 80px;
+  height: 25px;
+  background-color: red;
+  text-align: center;
+  padding:center;
+  margin-bottom: 10px;
+  padding-top: 2px;
+}
+.favorites{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  height: 25px;
+  width: 150px;
+  background-color: lightblue;
+  text-align: center;
+  margin-left: 75px;
+  outline: none;
+  border: none;
+}
+.favorites:hover{
+  background-color: lightgreen;
+}
+.tabs-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  margin-left: 141px;
+
+}
+.tabs{
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  background-color: white;
+  width:90px;
+  margin-top: 10px;
+  margin-right: 15px;
+  text-align: center;
+height: 20px;
+  padding-top: 3px;
+  outline:none;
+  border: none;
+}
+.tabs:hover{
+  background-color: lightgreen;
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 30px;
+  
+}
+.searchbar{
+  outline: none;
+  width: 400px;
+  height: 25px;
+  margin-top: 10px;
+}
+.search-button{
+  height: 25px;
+  width: 100px;
+  background-color: orange;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  margin-top: 1px;
+  padding-top: 5px;
+  margin-top: 10px;
+  z-index: 0;
+}
+.nav{
+  height: 60px;
+  background-color: black;
+  padding-top: 10px;
+}
+.movie-logo{
+  height: 72px;
+  width: 80px;
+}
+.searched-tabs{
+  background-color: lightblue;
+  position: absolute;
+  top: 58px;
+  width: 411px;
+  height: 100px;
+}
+.searched-tabs button{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  background-color: olivedrab;
+  /* margin-top: 22px;  */
+  outline: none;
+  border: none; 
+  width: 100px;
+  height: 50px;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+}
+.movie-logo2{
+  height: 72px;
+  width: 80px;
+  display: inline-block;
+}
+.searched-tabs div{
+  margin-left: 10px;
+  margin-top: 10px;
+}
